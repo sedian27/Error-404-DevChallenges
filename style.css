@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    min-height:100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* global */
+
+body {
+    font-size: 2rem;
+    min-height: 96vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 0 5rem 1rem;
+}
+
+/* header */
+
+.error h2{
+    font-family: 'Inconsolata', monospace;
+    margin: 0 0 1rem 1rem;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+
+/* Content */
+.content p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.9rem;
+    margin: 0 0 5rem 0;
+    color: #4F4F4F;
+    font-weight: 200;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 30rem;
+}
+
+/* Button */
+
+.button{
+    background-color: #2a2b2f;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 2rem 4rem;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    flex: 0;
+    font-size: 1.2rem;
+    color: lightgray;
+}
+
+.footer span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        align-items: center;
+    }
+
+    .content{
+        margin: 0 0 0 20rem;
+    }
+
+    .content h1{
+        font-size: 9rem;
+        width: 100rem;
+    }
+
+    .content p{
+        width: 50rem;
+        font-size: 3.1rem;
+    }
+
+    .img{
+        margin-left: 15rem;
+        justify-content: right;
+    }
+    
+    .img img{
+        width: 50rem;
+    }
+}
