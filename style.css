@@ -87,18 +87,18 @@ img{
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 768px){
     .container{
         align-items: center;
     }
 
     .content{
-        margin: 0 0 0 20rem;
+        margin: 0 0 0 4rem;
     }
 
     .content h1{
-        font-size: 9rem;
-        width: 100rem;
+        font-size: 5rem;
+        width: 50rem;
     }
 
     .content p{
@@ -107,8 +107,6 @@ img{
     }
 
     .img{
-        margin-left: 15rem;
-        justify-content: right;
     }
     
     .img img{
